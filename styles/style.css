@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+
+body{
+    background-color: rgb(236, 255, 249);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+footer{
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    @media only screen and (max-width: 768px) {
+      text-align: left;
+    }
+  }
+
+h3{
+    text-align: center
+}
+
+.menu{
+    display: flex;
+    list-style-type: none;
+    margin-left: 65%;
+}
+
+.item{
+    margin-right: 20px;
+}
+
+.inicio{
+    display: flex;
+}
+
+.img_footer{
+    height: 20px;
+}
+
+.imagenes {
+    display: flex;
+    justify-content: center;
+    gap: 20%;
+
+    @media screen and (max-width: 768px) {
+      flex-wrap: wrap;
+    };
+  };
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .item {
+    flex: 1 1 30%;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .item img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+  }
+  
+  .item h2 {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  
+  .item h6 {
+    margin-top: 5px;
+    font-size: 14px;
+  }
+
+  .menu li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .menu a {
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    color: black;
+    background-color: rgb(236, 255, 249);
+    text-decoration: none;
+  }
+  
+  .menu a:hover {
+    background-color: pink;
+  }
+  
+
