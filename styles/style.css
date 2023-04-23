@@ -13,7 +13,6 @@ a{
 footer{
     text-align: center;
 }
-
 h2 {
     text-align: center;
     @media only screen and (max-width: 768px) {
